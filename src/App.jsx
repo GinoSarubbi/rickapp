@@ -1,5 +1,15 @@
+import Encabezado from "./componentes/Encabezado";
+import Piedepagina from "./componentes/Piedepagina";
+import Seccionprincpial from "./componentes/Seccionprincipal";
+
 const App = () => {
-  return <h1>Hello!!!!</h1>;
+  return (
+    <>
+     <Encabezado />
+     <Seccionprincpial />
+     <Piedepagina />
+    </>
+  );
 };
 
 export default App;
